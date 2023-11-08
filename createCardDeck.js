@@ -45,6 +45,8 @@ const getDeck = () => {
       deck.push(card)
     }
   }
+
+  return deck; //returns the deck of cards
 }
 
 // CHECKS
@@ -66,3 +68,5 @@ const cardHasDisplayVal =
   randomCard.displayVal &&
   typeof randomCard.displayVal === 'string'
 console.log(`Random card has display value? ${cardHasDisplayVal}`)
+
+
